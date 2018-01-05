@@ -20,8 +20,11 @@
 
 * 如果在一个包中，一个类想要使用本包中的另一个类，那么该包名可以省略。
 * 如果使用的类不在包中，有三种方法引入：
+
 > 使用类全名描述: pk.classname;
+
 > 使用 import 关键字引入，使用通配符 "*": import package.*;
+
 > 使用 import 关键字引入类: import package.classname;
 
 * 类名重命名：右键———>refactor重构——>rename
